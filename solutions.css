@@ -1,0 +1,67 @@
+.ex-1-square:hover{
+    transition: 3s;
+    background-color: red;
+}
+.ex-2-square:active{
+    width: 100%;
+    transition: 2s;
+}
+.ex-3-square:hover{
+    border-radius: 50px;
+    transition: 2s;
+}
+.ex-4-square:hover{
+    opacity: 0;
+    transition: 1s;
+}
+.ex-5-square:hover{
+    transform: scale(2);
+    transition: 2s;
+}
+.ex-5-square:active{
+    transform: scale(.5);
+    transition: 2s;
+}
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+.ex-7-img:hover{
+    filter: grayscale(.6) sepia(.4);
+    transition: 2s;
+}
+.ex-8-img:hover{
+    filter: grayscale(.6) sepia(.4);
+    transition: 2s;
+    border-radius: 15px;
+}
+.ex-9-img:hover{
+    filter: grayscale(.6) sepia(.4);
+    transition: 2s ease 2s;
+    border-radius: 15px;
+    transform: scale(1.5);
+}
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+.ex-11-icon:hover{
+    animation: spinmameno 1s linear;
+}
+@keyframes spinmameno {
+    0%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(315deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+    
+}
+/**molto simpatici ma con il 12 non saprei nemmeno da
+dove iniziare**/
